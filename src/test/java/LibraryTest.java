@@ -1,5 +1,6 @@
 import org.junit.Before;
 import org.junit.Test;
+import org.w3c.dom.ls.LSOutput;
 
 import static org.junit.Assert.assertEquals;
 
@@ -33,4 +34,14 @@ public class LibraryTest {
         library.checkCapacityAndAdd(book);
         assertEquals(2, library.countBooks());
     }
+
+//    @Test
+//    public void canSetGenres(){
+//        library.addBook(book);
+//        library.addBook(book);
+//        library.addBook(book);
+//        library.addBook(book);
+//        assertEquals("Classics", library.getGenres());
+//    }
+
 }
